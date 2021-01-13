@@ -977,7 +977,7 @@ function Export:_assurePresetCache( props, photo )
         --local dir = LrPathUtils.getStandardFilePath( 'appData' )
         --local fdir = LrPathUtils.child( dir, 'Filename Templates' )
         -- post 13/Apr/2014 2:57 ###1 not fully tested / released.
-        local fdir, err = lightroom:getPresetDir( 'Filename Templates' )
+        local fdir, err = lightroom:getPresetDir( 'Develop Presets' )
         if fdir then
             dbgf( "preset dir: ^1", fdir )
         else
